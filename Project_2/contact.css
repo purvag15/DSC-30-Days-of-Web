@@ -1,0 +1,47 @@
+footer {
+    margin-top: 65%;
+}
+
+.textfield {
+        width: 60%;
+        padding: 12px 20px;
+        margin: 8px 0;
+        box-sizing: border-box;
+        border: 10% solid;
+        border-radius: 20%;
+}
+
+textarea {
+    padding: 12px 20px;
+        margin: 8px 0;
+        box-sizing: border-box;
+        border: 10% solid;
+        border-radius: 20%;
+        max-width: 100%;
+        min-width: 75%;
+}
+
+button {
+        background-color: #581845;
+        border-width: 10%;
+        border-color: #900c3f;
+        color: #ffc30f;
+        padding: 3% 6%;
+        text-decoration: none;
+        margin: 2% 2%;
+        cursor: pointer;
+        /* width: 24%; */
+}
+
+@media screen and (max-width: 600px) {
+    .col-25, .col-75, input[type=submit] {
+      width: 100%;
+      margin-top: 0;
+    }
+  }
+
+  form {
+      font-size: larger;
+      color: #581845;
+      font-weight: bolder;
+  }
